@@ -1,0 +1,14 @@
+{
+  "name": "Gauge-KudaGo",
+  "description": "Simple Gauge module for HTML5 canvas",
+  "main": "gauge.min.js",
+  "authors": [
+    "Pavel Panov"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gauge",
+    "html5"
+  ],
+  "homepage": "https://github.com/panovps/Gauge"
+}
