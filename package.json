@@ -1,0 +1,10 @@
+{
+	"author"	: "Pavel Panov",
+	"name"		: "Gauge-KudaGo",
+	"version"	: "0.0.1",
+
+	"devDependencies":{
+		"grunt"					: "*",
+		"grunt-contrib-uglify"	: "*"
+	}
+}

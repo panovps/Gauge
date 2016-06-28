@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="gauge.min.js"></script>
+    <title>Test Gauge</title>
+</head>
+
+<body>
+    <canvas height="400" width="300" id="example">Обновите браузер</canvas>
+    <canvas height="400" width="400" id="example2">Обновите браузер</canvas>
+    <br />
+    <button>Change to 6</button>
+<script>
+
+
+    var g1 = new Gauge('#example', {values:[1, 2, 3, 4, 5, 6], initValue:2});
+    (new Gauge('#example2', {
+        values: ['a1', 'b2', 'c3', 'd4', 'e5', 'f6', 'g7', 'h8'],
+        titleReverse: true,
+        handColor: 'lightblue',
+        firstApertureRange: Math.PI/3,
+        secondApertureRange: Math.PI/2
+    })).setValue('e5');
+
+    document.querySelector('button').addEventListener('click', function () {
+        g1.setValue(6);
+    });
+
+
+</script>
+</body>
+</html>
